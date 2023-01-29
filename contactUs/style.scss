@@ -1,0 +1,159 @@
+@import "_nullstyle";
+body{
+    background-color: #CFDBE4;
+}
+.cards {
+    width: 1440px;
+    height: 900px;  
+    margin: 50px auto;
+    background: linear-gradient(
+        to right,
+        white 0%,
+        white 70%,
+        #183A4A 70%,
+        #183A4A 100%
+    );
+    border-radius: 80px;
+
+}
+.container {
+padding: 150px 0 0 150px;
+}
+.row {
+    display: flex;
+}
+.send {
+
+		&__name {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 54px;
+            line-height: 66px;
+
+            color: #000000;
+            span{
+                color: #DD5471;
+            }
+		}
+
+		&__info {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+
+            color: #000000;
+		}
+
+		&__inputs {
+            display: flex;
+            flex-flow: column nowrap
+		}
+
+		&__input {
+            margin-top: 8px;
+            padding:  0 0 0 20px;
+            width: 545px;
+            height: 50px;
+            border: 1px solid #82828254;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #828282;
+		}
+
+        .input3{
+            margin-top: 12px;
+        }
+
+        &__imortant{
+            padding-top: 2px;
+            color: red;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+
+        }
+
+		&__button {
+            margin-top: 20px;
+            button{
+                width: 545px;
+                height: 50px;
+    
+                background: #DD5471;
+      
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                text-transform: uppercase;
+                color: #fff;
+            }
+		}
+
+		&__contacts {
+            padding-top: 60px;
+
+			&_icon {
+                padding-right: 16px;
+			}
+
+			&_text {
+
+            font-family: 'Montserrat';             
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+            color: #000000;
+
+			}
+
+			&_number {
+            
+            font-family: 'Montserrat';             
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            letter-spacing: 0.02em;
+            color: #DD5471;
+
+			}
+		}
+
+		&__contacts-row {
+            display: flex;
+            justify-content:space-between; 
+		}
+        .send {
+
+            &__contacts-rowimg {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    }
+    
+}
+.map {
+    iframe{
+        width: 545px;
+        height: 700px;
+        margin: -50px 0 0 71px;
+        
+    }
+}
