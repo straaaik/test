@@ -100,8 +100,16 @@ padding: 150px 0 0 150px;
                 line-height: 20px;
                 text-transform: uppercase;
                 color: #fff;
+                box-shadow: 1px 1px 10px black;
             }
 		}
+
+        &__button{
+            button:hover{
+                
+                box-shadow: 1px 1px 10px rgb(255, 0, 0);
+            }
+        }
 
 		&__contacts {
             padding-top: 60px;

@@ -189,6 +189,12 @@ body {
   line-height: 20px;
   text-transform: uppercase;
   color: #fff;
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
+}
+.send__button button:hover {
+  -webkit-box-shadow: 1px 1px 10px rgb(255, 0, 0);
+          box-shadow: 1px 1px 10px rgb(255, 0, 0);
 }
 .send__contacts {
   padding-top: 60px;
